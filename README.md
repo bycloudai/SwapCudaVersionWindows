@@ -20,13 +20,15 @@ nvcc --version
     
     You can also check your GPU compatibility [here](https://github.com/pytorch/pytorch/issues/31285#issuecomment-641434931) for NVIDIA GPU < 30 series. If your GPU has CC >= 3.7, then it supports PyTorch.
     
+    If you just freshly downloaded CUDA, then you would not need to proceed in the following steps, because you would have the CUDA version you want. You can do another quick check with `nvcc --version` to check your version in any command prompt.
+    
 * if you get something like this:
 
   ![image](https://user-images.githubusercontent.com/29135514/151626349-6d0d3507-68f0-423e-a04f-a49724e93b01.png)
   
-  Then it means you have CUDA installed. And in my case, it's CUDA 11.6
+  Then it means you have CUDA installed. And in my case, it's CUDA 11.6. I will be swapping to CUDA 11.3 in the following steps.
     
-## Step 1: Swap CUDA Version 
+## Step 1: Locate System Environment Variables
 Open up your environment variables. You can search "env" in the search tab, it should look something like this.
 <p align="center">
    <img src="https://user-images.githubusercontent.com/29135514/151625223-18027e0a-1bb4-48f6-aacf-1afb5dd4fdcf.png" width="250">
