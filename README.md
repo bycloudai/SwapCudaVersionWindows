@@ -68,7 +68,7 @@ So it should look like this after moving
 Press ok and you may now close all the windows for environment variables & system properties.
 
 ## Step 4: Check if succeed
-**Close** the last command prompt, and open a new one. Enter the following command:
+**Close** the last command prompt, and **open a new one**. Enter the following command:
 ```
 nvcc --version
 ```
