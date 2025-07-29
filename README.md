@@ -9,6 +9,9 @@ To run it, open Powershell as administrator, then navigate to the script folder 
 You can verify that the installation worked correctly by manually checking your environment variables and/or using "nvcc --version"
 
 
+
+# Original Readme
+
 Here I will do a quick run down on how to swap CUDA versions.
 
 For ease, I will be demonstrating switching from **CUDA 11.6** to **CUDA 11.3**, the same methods apply to other versions.
